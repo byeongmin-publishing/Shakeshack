@@ -1,0 +1,72 @@
+{
+    "food": [
+    {
+        "burger": {
+            "TitleKr": [
+                "로드사이드 버거",
+                "쉑버거",
+                "스모크쉑",
+                "슈륨 버거",
+                "쉑 스택",
+                "햄버거"
+            ],
+            "TitleEn": [
+                "Roadside Burger",
+                "Shack Burger",
+                "Smoke Shack",
+                "Shroom Burger",
+                "Shack Stack",
+                "Hamburger"
+            ],
+            "FoodText": [
+                "이국적인 향의 캐러멜라이즈드 어니언과 디종 머스터드의 풍미가 매력적인 미국 서부 스타일 버거",
+                "비프패티와 함께 토마토, 양상추 쉑소스가 토핑된 치즈버거",
+                "애플 우드 칩으로 훈연한 짭짤한 베이컨, 매콤한 체리페퍼, 비프패티와 쉑소스가 토핑된 치즈버거",
+                "치즈로 속을 채우고 바삭하게 튀겨낸 포토벨로 버섯 패티에 양상추, 토마토, 쉑소스를 올린 베지테리안 버거",
+                "포토벨로 버섯패티, 비프패티와 함께 토마토, 양상추, 쉑소스가 토핑된 치즈버거",
+                "고소한 포테이토 번과 비프패티의 풍미 그대로를 느낄 수 있는 기본에 충실한 버거"
+            ],
+            "FoodTop": [
+                "<p class='pack'>single</p><span class='won'>￦</span><p class='price'>9,800</p>",
+                "<p class='pack'>single</p><span class='won'>￦</span><p class='price'>7,300</p>",
+                "<p class='pack'>single</p><span class='won'>￦</span><p class='price'>9,300</p>",
+                "<span class='won'>￦</span><p class='price'>9,600</p>",
+                "<span class='won'>￦</span><p class='price'>13,100</p>",
+                "<span class='won'>￦</span><p class='price'>5,700</p>"
+            ],
+            "FoodBot": [
+                "<p class='pack'>double</p><span class='won'>￦</span><p class='price'>14,400</p>",
+                "<p class='pack'>double</p><span class='won'>￦</span><p class='price'>11,700</p>",
+                "<p class='pack'>double</p><span class='won'>￦</span><p class='price'>13,700</p>",
+                "",
+                "",
+                ""
+            ]
+        },
+
+
+
+        "chicken": {
+            "TitleKr": [
+                "치킨쉑",
+                "치킨 바이트"
+            ],
+            "TitleEn": [
+                "Chick'n Shack",
+                "Chick'n Bite"
+            ],
+            "FoodText": [
+                "버터밀크에 수비드한 후 바삭하게 튀겨낸 치킨 패티에 양상추, 피클, 허브마요 소스를 곁들인 버거",
+                "한 입에 먹기 좋은 바삭한 치킨 바이트와 허니 머스터드 또는 BBQ 소스를 선택하여 함께 즐기는 메뉴"
+            ],
+            "FoodTop": [
+                "<span class='won'>￦</span><p class='price'>9,800</p>",
+                "<p class='pack'>6 count</p><span class='won'>￦</span><p class='price'>5,000</p>"
+            ],
+            "FoodBot": [
+                "",
+                "<p class='pack'>10 count</p><span class='won'>￦</span><p class='price'>7,200</p>"
+            ]
+        }
+    }]
+}
