@@ -6,6 +6,6 @@ $(document).ready(function(){
         event.preventDefault();
         $(this).toggleClass("on");
 
-        menu.slideToggle();
+        menu.stop().slideToggle();
     })
 });
