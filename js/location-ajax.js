@@ -50,9 +50,6 @@ $(document).ready(function(){
 
                 $(".location-info-parking").text(data.locationTitle[i].infoParking);
                 // 주차안내
-                if($(".menuL-X").click()){
-                    $(".location-info-address").html(data.locationTitle[i].infoAddress1);
-                }
             },
             error:function(){
             // 실패했을때
