@@ -50,6 +50,7 @@ $(document).ready(function(){
 
                 $(".location-info-parking").text(data.locationTitle[i].infoParking);
                 // 주차안내
+
             },
             error:function(){
             // 실패했을때
