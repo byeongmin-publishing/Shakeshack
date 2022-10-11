@@ -70,9 +70,7 @@
     "infoAddress2": "(3호선 삼송역 3번출구에서 도보 10분 소요)",
     "infoTel":"031-5173-1068",
     "infoTime1":"10:00~22:00",
-    "infoTime2":"",
     "infoDelivery1":"10:00~21:45",
-    "infoDelivery2":"",
     "infoParking":"무료"},
 
     {"titleKr":"인천공항",
@@ -85,9 +83,7 @@
     "infoAddress2": "인천공항 제2여객터미널 지하1층 22-202호",
     "infoTel":"032-743-0100",
     "infoTime1":"입시휴업",
-    "infoTime2":"",
     "infoDelivery1":"입시휴업",
-    "infoDelivery2":"",
     "infoParking":"기본 30분 당 1200원 / 초과 시 15분 당 600원 부과"},
 
     {"titleKr":"센트럴시티",
