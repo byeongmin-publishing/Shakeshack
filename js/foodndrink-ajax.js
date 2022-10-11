@@ -17,7 +17,7 @@ $(document).ready(function(){
         // ajax에서
 
             type : "GET",
-            url:"/js/foodndrink-data.json",
+            url:"../js/foodndrink-data.json",
             dataType: "Json",
     
             success:function(data){ 
