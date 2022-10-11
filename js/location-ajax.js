@@ -11,7 +11,7 @@ $(document).ready(function(){
         // ajax에서
 
             type : "GET",
-            url:"../js/location-data.json",
+            url:"js/location-data.json",
             dataType: "Json",
     
             success:function(data){ 
