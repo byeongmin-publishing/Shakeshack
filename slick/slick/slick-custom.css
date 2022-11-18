@@ -67,3 +67,16 @@
         display: none !important;
     }
 }
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus{
+    opacity: .5;
+}
+
+
+
+.slide-contents{
+    opacity: .35;
+    transition: .5s;
+}
+.slick-center{
+    opacity: 1;
+}

@@ -15,13 +15,13 @@
 <body>
     <header class="section">
         <nav class="inner">
-            <a href="../index.html">
-                <img src="../img/shakeshack_logo.png" alt="로고" id="main-logo">
+            <a href="index.html">
+                <img src="img/shakeshack_logo.png" alt="로고" id="main-logo">
             </a>
             <ul id="main-menu">
-                <li><a href="../html/location.html">location</a></li>
-                <li><a href="../html/event.html">event</a></li>
-                <li><a href="../html/foodndrink.html">food & drink</a></li>
+                <li><a href="html/location.html">location</a></li>
+                <li><a href="html/event.html">event</a></li>
+                <li><a href="html/foodndrink.html">food & drink</a></li>
             </ul>
             <a id="burger_menu" href="#">
                 <div></div>
@@ -30,9 +30,9 @@
             </a>
             <div id="mobile-main_menu">
                 <ul>
-                    <li><a href="../html/location.html">LOCATION</a></li>
-                    <li><a href="../html/event.html">EVENT</a></li>
-                    <li><a href="../html/foodndrink.html">FOOD & DRINK</a></li>
+                    <li><a href="html/location.html">LOCATION</a></li>
+                    <li><a href="html/event.html">EVENT</a></li>
+                    <li><a href="html/foodndrink.html">FOOD & DRINK</a></li>
                 </ul>
             </div>
         </nav>
@@ -40,7 +40,7 @@
 
 
 
-    <div class="slide">
+    <div class="slide center">
         <div class="slide-contents">
             <img src="img/Shake_Shack_slide_img01.png" alt="이벤트1" class="slide-img">
         </div>
@@ -48,7 +48,10 @@
             <img src="img/Shake_Shack_slide_img02.png" alt="이벤트2" class="slide-img">
         </div>
         <div class="slide-contents">
-            <img src="img/Shake_Shack_slide_img03.png" alt="이벤트3" class="slide-img">
+            <img src="img/Shake_Shack_slide_img03.png" alt="이벤트1" class="slide-img">
+        </div>
+        <div class="slide-contents">
+            <img src="img/Shake_Shack_slide_img04.png" alt="이벤트1" class="slide-img">
         </div>
     </div>
 
@@ -315,7 +318,23 @@
     <script src="slick/slick/slick.min.js"></script>
     <script src="js/hamburger.js"></script>
     <script>
-        $('.slide').slick();
+        // $('.slide').slick();
+        $('.center').slick({
+            centerMode: true,
+            centerPadding: '0px',
+            slidesToShow: 3,
+            responsive: [
+                {
+                breakpoint: 481,
+                settings: {
+                    // arrows: false,
+                    centerMode: true,
+                    centerPadding: '50px',
+                    slidesToShow: 1
+                    }
+                }
+            ]
+        });
         $('.brand-story-slick').slick();
     </script>
 </body>

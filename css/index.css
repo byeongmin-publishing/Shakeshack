@@ -168,7 +168,9 @@ header nav{
 
 .slide{
     height: auto;
-    background-color: pink;
+    max-height: 500px;
+    overflow: hidden;
+    background-color: #000;
 }
 .slide .slide-contents{
     width: 100%;
@@ -176,10 +178,13 @@ header nav{
 
 
 
+
 /* slide-contents */
 
 .slide-img{
     width: 100%;
+    max-width: 640px;
+    max-height: 500px;
 }
 
 

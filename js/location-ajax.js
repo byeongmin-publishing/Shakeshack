@@ -1,3 +1,4 @@
+// ㅠㅠ
 $(document).ready(function(){    
     $(".menu-section li").click(function(event){
     // Class ="menu-section li"를 누를때
@@ -78,7 +79,7 @@ $(document).ready(function(){
         $.ajax({
 
             type : "GET",
-            url:"/js/location-data.json",
+            url:"../js/location-data.json",
             dataType: "Json",
     
             success:function(data){ 
@@ -104,7 +105,7 @@ $(document).ready(function(){
         $.ajax({
 
             type : "GET",
-            url:"/js/location-data.json",
+            url:"../js/location-data.json",
             dataType: "Json",
     
             success:function(data){ 
@@ -130,7 +131,7 @@ $(document).ready(function(){
         $.ajax({
 
             type : "GET",
-            url:"/js/location-data.json",
+            url:"../js/location-data.json",
             dataType: "Json",
     
             success:function(data){ 
@@ -157,7 +158,7 @@ $(document).ready(function(){
         $.ajax({
 
             type : "GET",
-            url:"/js/location-data.json",
+            url:"../js/location-data.json",
             dataType: "Json",
     
             success:function(data){ 
@@ -187,7 +188,7 @@ $(document).ready(function(){
         $.ajax({
 
             type : "GET",
-            url:"/js/location-data.json",
+            url:"../js/location-data.json",
             dataType: "Json",
     
             success:function(data){ 

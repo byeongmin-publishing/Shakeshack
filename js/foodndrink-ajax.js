@@ -17,7 +17,7 @@ $(document).ready(function(){
         // ajax에서
 
             type : "GET",
-            url:"/js/foodndrink-data.json",
+            url:"../js/foodndrink-data.json",
             dataType: "Json",
     
             success:function(data){ 
@@ -54,7 +54,7 @@ $(document).ready(function(){
         event.preventDefault();
         $.ajax({
             type : "GET",
-            url:"/js/foodndrink-data.json",
+            url:"../js/foodndrink-data.json",
             dataType: "Json",  
             success:function(data){
                 $(".food-contents li").each(function(){
@@ -83,7 +83,7 @@ $(document).ready(function(){
         event.preventDefault();
         $.ajax({
             type : "GET",
-            url:"/js/foodndrink-data.json",
+            url:"../js/foodndrink-data.json",
             dataType: "Json",  
             success:function(data){
                 $(".food-contents li").each(function(){
@@ -111,7 +111,7 @@ $(document).ready(function(){
         event.preventDefault();
         $.ajax({
             type : "GET",
-            url:"/js/foodndrink-data.json",
+            url:"../js/foodndrink-data.json",
             dataType: "Json",  
             success:function(data){
                 $(".food-contents li").each(function(){
@@ -140,7 +140,7 @@ $(document).ready(function(){
         event.preventDefault();
         $.ajax({
             type : "GET",
-            url:"/js/foodndrink-data.json",
+            url:"../js/foodndrink-data.json",
             dataType: "Json",  
             success:function(data){
                 $(".food-contents li").each(function(){
@@ -167,7 +167,7 @@ $(document).ready(function(){
             event.preventDefault();
             $.ajax({
                 type : "GET",
-                url:"/js/foodndrink-data.json",
+                url:"../js/foodndrink-data.json",
                 dataType: "Json",  
                 success:function(data){
                     $(".food-contents li").each(function(){
@@ -195,7 +195,7 @@ $(document).ready(function(){
             event.preventDefault();
             $.ajax({
                 type : "GET",
-                url:"/js/foodndrink-data.json",
+                url:"../js/foodndrink-data.json",
                 dataType: "Json",  
                 success:function(data){
                     $(".food-contents li").each(function(){
@@ -223,7 +223,7 @@ $(document).ready(function(){
             event.preventDefault();
             $.ajax({
                 type : "GET",
-                url:"/js/foodndrink-data.json",
+                url:"../js/foodndrink-data.json",
                 dataType: "Json",  
                 success:function(data){
                     $(".food-contents li").each(function(){
@@ -253,7 +253,7 @@ $(document).ready(function(){
             event.preventDefault();
             $.ajax({
                 type : "GET",
-                url:"/js/foodndrink-data.json",
+                url:"../js/foodndrink-data.json",
                 dataType: "Json",  
                 success:function(data){
                     $(".food-contents li").each(function(){
@@ -281,7 +281,7 @@ $(document).ready(function(){
             event.preventDefault();
             $.ajax({
                 type : "GET",
-                url:"/js/foodndrink-data.json",
+                url:"../js/foodndrink-data.json",
                 dataType: "Json",  
                 success:function(data){
                     $(".food-contents li").each(function(){
